@@ -20,6 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     var rate_val = document.querySelector("#rate").addEventListener("input", () => {
         var val = document.querySelector('#rate').value;
-        document.querySelector("#int_val").textContent = val + '%';
+        document.querySelector("#int_val").textContent = val;
     });
 });
